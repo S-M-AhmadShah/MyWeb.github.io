@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Fitness Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS RESET */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/peakpx\ \(2\).jpg');
+        height: 650px;
+        color: white;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position:absolute;
+        left:36px;
+        top:18px; 
+    }
+    .left img{
+        width: 80px;
+
+    }
+    .left div{
+        text-align: center;
+        font-size: 14px;
+    }
+    .mid {
+        display:block;
+        /* border: 3px solid black; */
+        width: 51%;
+        margin: 20px auto;
+        /* border-radius: 5px; */
+    }
+
+    .right {
+        position:absolute;
+        right:34px;
+        top:20px; 
+        /* border: 2px solid green; */
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        margin: 14px 9px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 10px 30px;
+        font-size: 9px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:rgb(87, 85, 85);
+    }
+    .container{
+        border: 2px solid white;
+        margin :130px 32px;
+        padding: 5px;
+        width: 32%;
+        border-radius: 5px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 5px; 
+        font-size: 18px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 82%;
+        margin-left: 38px;
+        font-size: 15px;
+        padding: 9px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/1661852221149.png" alt="">
+            <div>
+                SYED FITNESS<br>GYM
+            </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="äctive">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the Best Gym of Lahore Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Height">
+            </div>
+            
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
